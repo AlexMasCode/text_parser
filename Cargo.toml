@@ -1,0 +1,17 @@
+[package]
+name = "text_parser"
+version = "0.1.0"
+edition = "2021"
+
+
+description = "A lightweight Rust library for parsing expressions, dates, words, numbers, and word_or_number. Simplify input validation and parsing in your Rust projects using the `text_parser` library."
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+peg = "0.8.2"
+pest = "2.6"
+pest_derive = "2.6"
+anyhow = "1.0"
+structopt = "0.3"
